@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BeatSaberMapMaker.beatmapOutput">
+    <Position X="7" Y="1.25" Width="2.25" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="BeatSaberMapMaker.beatmapOutput.BSEvent">
+        <TypeIdentifier>
+          <NewMemberFileName>beatmapOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="BeatSaberMapMaker.beatmapOutput.BSNote">
+        <TypeIdentifier>
+          <NewMemberFileName>beatmapOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="BeatSaberMapMaker.beatmapOutput.BSObstacle">
+        <TypeIdentifier>
+          <NewMemberFileName>beatmapOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEAQAAgAAAAAIAAAAAAAAAAACAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>beatmapOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeatSaberMapMaker.MainScreen">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <Members>
+      <Field Name="alignSelect" Hidden="true" />
+      <Field Name="button1" Hidden="true" />
+      <Field Name="button2" Hidden="true" />
+      <Field Name="button3" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Field Name="difficultySelect" Hidden="true" />
+      <Field Name="directionSelect" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Field Name="FilenameLabel" Hidden="true" />
+      <Field Name="groupBox1" Hidden="true" />
+      <Field Name="handSelect" Hidden="true" />
+      <Field Name="heightSelect" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="inputDisplay" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label6" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="label9" Hidden="true" />
+      <Field Name="MapperName" Hidden="true" />
+      <Field Name="outputDisplay" Hidden="true" />
+      <Field Name="progressBar" Hidden="true" />
+      <Field Name="Version" Hidden="true" />
+    </Members>
+    <AssociationLine Name="beatmapOutput1" Type="BeatSaberMapMaker.beatmapOutput" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="2.438" />
+        <Point X="3.491" Y="2.438" />
+        <Point X="3.491" Y="0.858" />
+        <Point X="8.125" Y="0.858" />
+        <Point X="8.125" Y="1.25" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IUAARAAYADAAIBQggACEAAoiCCA4AJAAAGQAAAIAAAI=</HashCode>
+      <FileName>MainScreen.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="infoOutput1" />
+      <Property Name="beatmapOutput1" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="BeatSaberMapMaker.infoOutput">
+    <Position X="4" Y="1.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="BeatSaberMapMaker.infoOutput.customData">
+        <TypeIdentifier>
+          <NewMemberFileName>infoOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="BeatSaberMapMaker.infoOutput.difficultyData">
+        <TypeIdentifier>
+          <NewMemberFileName>infoOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="BeatSaberMapMaker.infoOutput.difficultyInfo">
+        <TypeIdentifier>
+          <NewMemberFileName>infoOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+      <Struct Name="BeatSaberMapMaker.infoOutput.customDifficultyData">
+        <TypeIdentifier>
+          <NewMemberFileName>infoOutput.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>BBAgAAEAAAAIIACBAAQgEAAAAAAABACAAAAAAAQAggA=</HashCode>
+      <FileName>infoOutput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BeatSaberMapMaker.input">
+    <Position X="0.5" Y="6.25" Width="2.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Struct Name="BeatSaberMapMaker.input.intensityChange">
+        <TypeIdentifier>
+          <NewMemberFileName>input.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <AssociationLine Name="infoOutput" Type="BeatSaberMapMaker.infoOutput" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="1.75" Y="6.25" />
+        <Point X="1.75" Y="6" />
+        <Point X="4" Y="6" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAQAAAAAAAAAAEAAAAEAAAAAAAAAAAAAAAAII=</HashCode>
+      <FileName>input.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="infoOutput" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
